@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3{
+  color: red;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#btn{
+  padding: 20px;
+  width: 250px;
+  background-color: #dc32ff;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 20px;
+}
+
+#btn:hover{
+  background-color: #fff;
+  color: #dc32ff;
+  border: 2px solid #dc32ff;
+}
+
+li{
+  padding-top: 15px;
+}
