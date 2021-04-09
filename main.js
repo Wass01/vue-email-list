@@ -3,6 +3,7 @@
 // generare 10 indirizzi email e stamparli
 // in pagina all'interno di una lista.
 
+Vue.config.devtools = true;
 
 let app = new Vue({
   el: "#root",
